@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #1f242d;
+   background-position: -1px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar{
+    background-color: #1f242d;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   padding: 19px 9%;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   z-index: 10%;
+   box-sizing: border-box;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+list-style: none;
+margin-left: 35px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    color: #7cf03d;
+
+}
+#field{
+    display: inline-block;
+    width: fit-content;
+    color: black;
+   h3{
+    display: inline-block;
+    background-color: #7cf03d;
+    
+   }
+   p{
+    color: white;
+    
+   }
+}
+.skills{
+    h3{
+        display: inline-block;
+        background-color: #7cf03d;
+        color: black;
+       
+    }
+}
+.list{
+     h4{
+            display: inline-block;
+            background-color: goldenrod;
+            
+        }
+}
+.list ul,li{
+    color: white;
+   
+}
+ h4{
+    display: inline-block;
+        background-color: goldenrod;
+    }
+    .cs_f{
+        h3{
+            display: inline-block;
+            background-color: #7cf03d;
+        }
+    }
+    .project{
+        h3{
+            display: inline-block;
+            background-color: #7cf03d;
+            
+        }
+        p{
+            color: white;
+        }
+    }
+    .table{
+        h3{
+            display: inline-block;
+            background-color: #7cf03d;
+            
+        }
+        th{
+            background-color: goldenrod;
+
+        }
+        td{
+            background-color: #396e1d;
+        }
+    }
+    .certificate{
+        h3{
+            display: inline-block;
+            background-color: #7cf03d;
+        }
+    }
